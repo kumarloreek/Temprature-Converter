@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Ysabeau+SC:wght@1..1000&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+       PRELOADED    
+-->
+
+    <div class="preloaded " data-preloaded>
+        <div class="circle"></div>
+        <p class="text">temprature converter</p>
+
+    </div>
+    <div class="heading">
+        <a href="#">Temprature converter</a>
+    </div>
+    <div class="main">
+        
+        <div class="glassEffect">
+            <label for="fromUnit">From : </label>
+            <select name="fromUnit" id="fromUnit">
+                <option value="N">Sellect From</option>
+                <option value="C">Celciouce</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+                <option value="R">Ranking</option>
+            </select>
+            <span class="iviled inviledFrom">Plese Select Unit</span>
+
+            <label for="toUnit">To : </label>
+            <select name="toUnit" id="toUnit">
+                <option value="N">Sellect To</option>
+                <option value="C">Celciouce</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+                <option value="R">Ranking</option>
+            </select>
+             <span class="iviled inviledTo">Plese Select Unit</span>
+            <input type="number" id="temprature" placeholder="Enter Temprature">
+            <span class="iviled inviledtemp">Plese Enter Temprature</span>
+            <button id="convert">Convert</button>
+             
+            <input type="number" name="result" id="result" placeholder="result">
+        </div>
+    </div>
+
+    <div class="about">
+       
+            <h2>About the Temperature Converter</h2>
+            <p>
+                Welcome to our Temperature Converter! This tool allows you to easily convert temperatures between Celsius, Fahrenheit, and Kelvin. 
+                Whether you're a student, a professional, or just curious, this converter provides accurate and quick conversions to help with your 
+                everyday needs. The user-friendly interface ensures that you can perform conversions with just a few clicks, making it a handy tool 
+                for anyone needing temperature conversion on the go.
+            </p>
+            <p>
+                Our temperature converter is built with simplicity and efficiency in mind, ensuring that you get the results you need without any hassle. 
+                Simply input the temperature you want to convert, select the target unit, and get instant results.
+            </p>
+       
+        
+    </div>
+    <div class="footer">
+       
+            <p>&copy; 2024 Temperature Converter. All Rights Reserved.</p>
+            <p>
+                Developed by Kr.loreek 
+            </p>
+                <a href="#" >Visit My Website</a> 
+                <a href="mailto:kumarloreek95@gmail.com"> Contact Me</a>
+            
+            <p>Follow us on </p>
+                <a href="https://www.instagram.com/kr.loreek/" >Instagrame</a> 
+                <a href="https://www.linkedin.com/in/loreek-kumar-das-8b58a1284/" >LinkedIn</a>
+            
+     
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
